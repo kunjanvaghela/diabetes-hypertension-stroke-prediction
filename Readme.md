@@ -17,10 +17,10 @@ We used the "Diabetes Health Indicators Dataset" from Kaggle, which includes thr
 1. Install Streamlit:
    ```bash
    pip install streamlit
-	'''
-
+   
 2. Run the application:
-streamlit run app_name.py
+   ```bash
+   streamlit run app_name.py
 
 3. If the browser doesn't open automatically, you can access the app by visiting http://localhost:8501 in your web browser.
 
@@ -42,22 +42,3 @@ The application is designed to assist both patients and healthcare professionals
 
 For a detailed explanation of the project, including methodology, data analysis, and results, please refer to the [Project Report](./Report.pdf).
 
-
-
-
-
-
-Contribution:
-- Kunjan Vaghela (kv353)
-- Hrishikesh Salunkhe (hs1121)
-- Jash Jayant Shah (js3297)
-- Dhruv Snehal Satyapanthi (ds1990)
-
-
-Steps:
-1. Python Library for dynamic Frontend - Streamlit
-2. Models from Colab Notebook are first loaded in the pickle file and are then used by the streamlit app to give predictions based on user inputs file
-3. How to run:
-	a. pip install streamlit
-	b. streamlit run app_name.py
-4. If the browser doesn't open automatically, you can access the app by visiting http://localhost:8501 in your web browser 
